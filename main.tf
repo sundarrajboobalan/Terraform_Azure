@@ -2,7 +2,7 @@ provider "azurerm" {
   features {
     resource_group {
       prevent_deletion_if_contains_resources = false
-      subscription_id= "24f9a255-a03d-4cd5-bbc8-d85955c0fa62"
+      
     }
   }
 }
