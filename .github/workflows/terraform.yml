@@ -1,4 +1,4 @@
-name: Terraform Azure Deployments
+name: Terraform Azure Deployment
 
 on:
   push:
