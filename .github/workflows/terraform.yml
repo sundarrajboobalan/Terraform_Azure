@@ -40,7 +40,9 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan -out=tfplan
-
+        
+      - name: Terraform destroy
+        run: terraform destroy --auto-approve
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main'
         run: terraform apply -auto-approve tfplan
