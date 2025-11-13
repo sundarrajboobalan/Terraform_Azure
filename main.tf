@@ -80,6 +80,6 @@ resource "azurerm_virtual_machine" "example" {
   }
 
   tags = {
-    environment = "testing"
+    environment = "dev"
   }
 }
